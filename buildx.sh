@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ENV_IMAGE_NAME="PY-SerieA"
+ENV_IMAGE_NAME="py-seriea"
 ENV_IMAGE_TAG="v"
 
 ENV_DOCKER_ORG="francescozanti"
