@@ -1,0 +1,13 @@
+name: Bash Script Build and Push Containerfile
+on: push
+
+jobs:
+  Bash-Script:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Bash Script
+        run: | 
+          sudo bash buildx.sh ${{secrets.DOCKER_USERNAME}} ${{secrets.DOCKER_PASSWORD}}
+ 
