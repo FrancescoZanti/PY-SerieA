@@ -1,9 +1,9 @@
 #! /bin/bash
 
-ENV_IMAGE_NAME="centos-updated"
+ENV_IMAGE_NAME="PY-SerieA"
 ENV_IMAGE_TAG="v"
 
-ENV_DOCKER_ORG="tekappsrl"
+ENV_DOCKER_ORG="francescozanti"
 ENV_DOCKER_USER=$1
 ENV_DOCKER_PASS=$2
 
